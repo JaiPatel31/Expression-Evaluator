@@ -288,4 +288,5 @@
 
 (provide (all-defined-out))
 
-(repl empty-env)
+(module+ main
+  (repl empty-env))
